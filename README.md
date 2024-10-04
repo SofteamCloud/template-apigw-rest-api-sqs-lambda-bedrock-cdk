@@ -13,6 +13,16 @@ Important: This application uses various AWS services and there are costs associ
 * [Git Installed](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * [AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html)
 
+### if launch from AWS cloudshell run theses Requirements
+```bash
+git clone https://github.com/SofteamCloud/template-apigw-rest-api-sqs-lambda-bedrock-cdk
+cd template-apigw-rest-api-sqs-lambda-bedrock-cdk/cdk
+pip install aws-cdk-lib
+sudo npm -g install aws-cdk
+pip install -r  ../src/invoke-model/requirements.txt 
+
+```
+
 ## Architecture
 The following diagram illustrates the solutions architecture
 ![Architecture Diagram](img/api-sqs-lambda-bedrock.png)
@@ -20,7 +30,7 @@ The following diagram illustrates the solutions architecture
 
 1. Create a new directory, navigate to that directory in a terminal and clone the GitHub repository:
     ``` 
-    git clone 
+    git clone https://github.com/SofteamCloud/template-apigw-rest-api-sqs-lambda-bedrock-cdk
     ```
 1. Change directory to the pattern directory:
     ```
