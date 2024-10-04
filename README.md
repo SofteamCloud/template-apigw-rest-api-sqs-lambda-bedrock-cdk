@@ -24,7 +24,7 @@ The following diagram illustrates the solutions architecture
     ```
 1. Change directory to the pattern directory:
     ```
-    cd apigw-rest-api-sqs-lambda-bedrock-cdk.
+    cd template-apigw-rest-api-sqs-lambda-bedrock-cdk.
     ```
 
 1. Deploy the stack to your default AWS account and region. The output of this command should give you the REST API URL.
