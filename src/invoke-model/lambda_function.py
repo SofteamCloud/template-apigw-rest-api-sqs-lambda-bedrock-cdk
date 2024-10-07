@@ -1,7 +1,7 @@
 import json
 import boto3 
 
-modelId = "anthropic.claude-3-5-sonnet-20240620-v1:0"
+modelId = "anthropic.claude-3-haiku-20240307-v1:0:48k"
 
 def invoke_bedrock(prompt_data):
     body = json.dumps({
